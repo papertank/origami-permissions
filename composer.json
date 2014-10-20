@@ -1,0 +1,32 @@
+{
+    "name": "origami/permissions",
+    "description": "Permissions for Laravel projects",
+    "authors": [
+        {
+            "name": "Papertank",
+            "email": "hello@papertank.co.uk"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "zendframework/zend-permissions-acl": "2.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Origami\\Permissions\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
