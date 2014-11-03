@@ -1,6 +1,6 @@
 <?php namespace Origami\Permissions;
 
-use Origami\Permissions\AclInterface;
+use Origami\Permissions\Acl\AclInterface;
 use InvalidParametersException;
 use Zend\Permissions\Acl\Exception\InvalidArgumentException;
 
